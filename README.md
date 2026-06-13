@@ -10,18 +10,13 @@ The analysis focuses on GDP growth, inflation, unemployment, house prices, and p
 
 The project uses yearly country-level Eurostat indicators:
 
-- GDP growth
-- Harmonised Index of Consumer Prices
-- Unemployment rate
-- House price index
-- Population
-
-The data can be accessed via:
 - Gdp growth: https://ec.europa.eu/eurostat/databrowser/view/tec00115/default/table?lang=en
 - Inflation index: https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table?lang=en
 - Unemployment rate: https://ec.europa.eu/eurostat/databrowser/view/tipsun20/default/table?lang=en
 - House price index: https://ec.europa.eu/eurostat/databrowser/view/prc_hpi_a/default/table?lang=en
 - Population: https://ec.europa.eu/eurostat/databrowser/view/tps00001/default/table?lang=en
+
+The data is accessed via a PostgreSQL database.
 
 Broad aggregate regions such as Euro-area totals are excluded where country-level comparisons are required.
 
