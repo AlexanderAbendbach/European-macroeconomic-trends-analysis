@@ -1,4 +1,4 @@
-# European Macroeconomic Trends Analysis with PostgreSQL and Python
+# European Macroeconomic Trends Analysis
 
 ## Overview
 
